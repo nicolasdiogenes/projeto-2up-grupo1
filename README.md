@@ -43,16 +43,17 @@ Projeto final da disciplina Laboratório de Programação 2026.2 — Profª Rafa
 ## Como funciona cada parte
 
 - Ana Gabriela: A função de ler inteiro serve para receber os números inteiros e verificar se eles estão no limite permitido. Usei while para repetir a mensagem até um número dentro do limite ser digitado e usei o try e o except para evitar erro caso o usuário digite um número que não pode ser convertido para inteiro. 
-- A função de cadastrar filmes serve para adicionar novos filmes ao sistema do CineRecife. Ela solicita as informações do filme, como código, título, gênero, classificação indicativa, duração e horários das sessões. Também verifica se os dados estão corretos e se o código já não está sendo utilizado. Depois, organiza essas informações em um dicionário e adiciona o filme à lista de filmes.
-- A função vender ingresso permite cadastrar os filmes que estarão disponíveis no sistema.
-- Já a função gerar relatório usa os registros das vendas para gerar os relatórios do cinema.
+A função de cadastrar filmes serve para adicionar novos filmes ao sistema do CineRecife. Ela solicita as informações do filme, como código, título, gênero, classificação indicativa, duração e horários das sessões. Também verifica se os dados estão corretos e se o código já não está sendo utilizado. Depois, organiza essas informações em um dicionário e adiciona o filme à lista de filmes.
+A função vender ingresso permite cadastrar os filmes que estarão disponíveis no sistema.
+Já a função gerar relatório usa os registros das vendas para gerar os relatórios do cinema.
+A função calcular_preco serve para calcular o valor final do ingresso. Ela considera o preço inteiro, aplica o desconto de 50% quando o ingresso é meia-entrada e, se for um dia promocional, aplica mais 30% de desconto sobre o valor já calculado.
 
 Laura Rezende:
 
 Nicolas Diogenes: Na função de mostrar o menu, ela só imprime o menu com as opções. Na função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com o nome do filme. Os if verificam se o filme realmente existe ou é só um "None".
 
 ### Nome do integrante — funções: exemplo_1(), exemplo_2()
-Ana Gabriela - funções: ler_inteiro(mensagem, minimo, maximo), cadastrar_filme(filmes), vender_ingresso(filmes, vendas, promocional) e gerar_relatorio(filmes, vendas).
+Ana Gabriela - funções: ler_inteiro(mensagem, minimo, maximo), cadastrar_filme(filmes), vender_ingresso(filmes, vendas, promocional) e gerar_relatorio(filmes, vendas) e calcular_preco(preco_base, tipo="inteira", promocional=False).
 
 Laura Rezende - funções:
 

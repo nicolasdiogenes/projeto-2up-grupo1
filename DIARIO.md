@@ -26,3 +26,8 @@
 - O que fiz: Criei a função ler_inteiro(mensagem, minimo, maximo), responsável por receber números inteiros dentro de um intervalo definido. Também desenvolvi as funções cadastrar_filme(filmes), para cadastrar filmes e suas sessões; vender_ingresso(filmes, vendas, promocional), para realizar as vendas e verificar a disponibilidade dos assentos; e gerar_relatorio(filmes, vendas), para apresentar os resultados das vendas e outras informações do cinema.
 - Erro ou dificuldade: Tive dificuldade em montar os laços de repetição, organizar as informações nos dicionários e fazer todas as verificações necessárias durante o cadastro e a venda de ingressos. Também tive dificuldade em organizar os cálculos do relatório.. 
 - Como resolvi: Percebi que havia esquecido de utilizar o try para tratar entradas inválidas que não poderiam ser convertidas em números inteiros. Para as outras funções, organizei o código por etapas, utilizei condições e laços de repetição e testei cada parte para entender melhor seu funcionamento e corrigir os erros encontrados.
+
+## 28/11 - 12:14 - Ana Gabriela
+- O que fiz: Escolhi fazer a função calcular_preco também, para calcular o valor final dos ingressos, considerando o tipo de ingresso (inteira ou meia-entrada) e o desconto aplicado em dias promocionais.
+- Erro ou dificuldade: Tive dificuldade porque a função estava sendo chamada na venda de ingressos, mas ainda não havia sido criada.
+- Como resolvi: Criei a função separadamente, utilizando condições if para verificar o tipo de ingresso e se o dia era promocional. Depois, retornei o valor final para ser utilizado na função de venda.

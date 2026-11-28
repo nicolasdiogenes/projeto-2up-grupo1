@@ -122,6 +122,17 @@ def cadastrar_filmes(filmes):
 
     print("\nFilme cadastrado com sucesso!")
 
+# Responsável: Ana Gabriela
+def calcular_preco(preco_base, tipo, promocional):
+    valor = preco_base
+
+    if tipo == "meia":
+        valor = valor * 0.50
+
+    if promocional:
+        valor = valor * 0.70
+
+    return valor
 
 #Responsável: Ana Gabriela
 
