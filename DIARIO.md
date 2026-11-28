@@ -16,7 +16,7 @@
 - O que fiz: adicionei o arquivo do diário (tinha esquecido rs), comecei a testar a função de mostrar o menu e criei a função de buscar_filme(filmes,codigo)
 - Erro ou dificuldade: percorrer a lista de dicionários 
 - Como resolvi: eu tinha esquecido de criar a varável "filme" que guarda o item da lista
-- Próximo passo: criar função validar_idade(idade, classificacao) e calcular_preco(preco_base, tipo, promocional).
+- Próximo passo: criar função validar_idade(idade, classificacao).
 
 ## 28/11 - 10:27 - Ana Gabriela
 - O que fiz: clonei o repositório na minha máquina e dei git pull para poder iniciar minhas alterações.
@@ -31,3 +31,9 @@
 - O que fiz: Escolhi fazer a função calcular_preco também, para calcular o valor final dos ingressos, considerando o tipo de ingresso (inteira ou meia-entrada) e o desconto aplicado em dias promocionais.
 - Erro ou dificuldade: Tive dificuldade porque a função estava sendo chamada na venda de ingressos, mas ainda não havia sido criada.
 - Como resolvi: Criei a função separadamente, utilizando condições if para verificar o tipo de ingresso e se o dia era promocional. Depois, retornei o valor final para ser utilizado na função de venda.
+
+
+## 28/11 — 12h40 — Nicolas Diogenes
+- O que fiz: criei e testei a função validar_idade(idade,filme). 
+- Erro ou dificuldade: de alguma forma, achei que funcionava da mesma forma que a função de buscar filmes e comcei usando um for pra percorrer, mas não era assim. 
+- Como resolvi: vi que dava uns erros e reli o notion, daí que eu percebi que a função usava apenas um if pra comparar, sem percorrer a lista. 

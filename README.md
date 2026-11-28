@@ -50,15 +50,16 @@ A função calcular_preco serve para calcular o valor final do ingresso. Ela con
 
 Laura Rezende:
 
-Nicolas Diogenes: Na função de mostrar o menu, ela só imprime o menu com as opções. Na função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com o nome do filme. Os if verificam se o filme realmente existe ou é só um "None".
+Nicolas Diogenes: A função de mostrar o menu, só imprime o menu com as opções.
+A função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com o nome do filme. Os if verificam se o filme realmente existe ou é só um "None".
+Por fim, a função de validade idade, compara a idade inserida com a classificação do filme, se ela for maior ou igual do que a classificação, sai True, se for menor, sai False. 
 
 ### Nome do integrante — funções: exemplo_1(), exemplo_2()
 Ana Gabriela - funções: ler_inteiro(mensagem, minimo, maximo), cadastrar_filme(filmes), vender_ingresso(filmes, vendas, promocional) e gerar_relatorio(filmes, vendas) e calcular_preco(preco_base, tipo="inteira", promocional=False).
 
 Laura Rezende - funções:
 
-Nicolas Diogenes - funções: exibir_menu(), buscar_filme(filmes, codigo), validar_idade(idade, classificacao) e calcular_preco(preco_base, tipo, promocional)
-
+Nicolas Diogenes - funções: exibir_menu(), buscar_filme(filmes, codigo) e validar_idade(idade, classificacao)
 
 
 ## Exemplo de uso
@@ -67,10 +68,14 @@ Nicolas Diogenes - funções: exibir_menu(), buscar_filme(filmes, codigo), valid
 ## Maior dificuldade e como resolvi
 - Ana: Minha maior dificuldade foi entender como organizar as informações e fazer as funções trabalharem juntas, principalmente no cadastro de filmes e na venda de ingressos. Consegui resolver pesquisando, estudando os comandos do Python e testando o código aos poucos, até entender como cada parte funcionava.
 
+Laura: 
+
+Nicolas: A minha maior dificuldade foi perceber que na funçao de validação de idade não precisa percorrer a lista, mas sim comparar a idade com a classificação do filme com o código do filme inserido, usando a função de buscar o filme (que é ela quem percorre a lista). Li o notion novamente, e no meio da leitura, eu percebi como que funcionava. 
+
 ## Declaração de uso de Inteligência Artificial
 Marque UMA opção:
 
-- [ ] Declaro que NÃO utilizei nenhuma ferramenta de IA neste projeto.
+- [ X ] Declaro que NÃO utilizei nenhuma ferramenta de IA neste projeto.
 - [ ] Declaro que utilizei IA apenas para os fins permitidos, conforme abaixo:
 
 | Integrante | Ferramenta | Data | Pergunta feita (copie exatamente) | O que fez com a resposta |

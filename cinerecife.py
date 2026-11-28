@@ -37,7 +37,8 @@ def buscar_filme(filmes, codigo):
 exibir_menu()
 
 
-# Gente, quando forem usar a função de buscar, coloquem esse bloco aqui
+# Gente, quando forem usar a função de buscar, coloquem esse bloco aqui e apagar essa parte, quando usarem pra não ficar no menu 
+#(Responsável: Nicolas Diógenes)
 codcomp = int(input("Digite o código do filme: "))
 resultado = buscar_filme(filmes, codcomp)
 
@@ -354,3 +355,23 @@ def gerar_relatorio(filmes, vendas):
         print("Não existem vendas para simular o reajuste.")
 
     print("\n===================================")
+
+
+#Responsável: Nicolas Diogenes
+def validar_idade(idade, classificacao):
+    if idade >= classificacao:
+        return True
+    return False
+
+#Responsável: Nicolas Diogenes
+#Laura, quando for usar a função de validade idade, usa essa parte de baixo!! E apaga depois que levar pro teu if pra n ficar no menu
+idade = int(input("Insira a sua idade: "))
+codigo = int(input("Código do filme: "))
+filme = buscar_filme(filmes, codigo)
+
+if filme is None:
+    print("Filme não encontrado.")
+elif validar_idade(idade,filme["classificacao"]):
+    print("Pode assistir.")
+else:
+    print("Não pode assistir.")
