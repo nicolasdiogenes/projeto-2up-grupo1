@@ -51,7 +51,7 @@ A função calcular_preco serve para calcular o valor final do ingresso. Ela con
 Laura Rezende:
 
 Nicolas Diogenes: A função de mostrar o menu, só imprime o menu com as opções.
-A função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com o nome do filme. Os if verificam se o filme realmente existe ou é só um "None".
+A função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com as informações do filme. Os if verificam se o filme realmente existe ou é só um "None".
 Por fim, a função de validade idade, compara a idade inserida com a classificação do filme, se ela for maior ou igual do que a classificação, sai True, se for menor, sai False. 
 
 ### Nome do integrante — funções: exemplo_1(), exemplo_2()
