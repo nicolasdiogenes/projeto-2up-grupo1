@@ -17,3 +17,7 @@
 - Erro ou dificuldade: percorrer a lista de dicionários 
 - Como resolvi: eu tinha esquecido de criar a varável "filme" que guarda o item da lista
 - Próximo passo: criar função validar_idade(idade, classificacao) e calcular_preco(preco_base, tipo, promocional).
+
+## 28/11 - 10:27 - Ana Gabriela
+- O que fiz: clonei o repositório na minha máquina e dei git pull para poder iniciar minhas alterações.
+
