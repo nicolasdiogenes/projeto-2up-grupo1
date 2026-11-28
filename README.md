@@ -38,18 +38,21 @@ Projeto final da disciplina Laboratório de Programação 2026.2 — Profª Rafa
 (Marque com [x] o que funciona. Se algo ficou incompleto, explique aqui.)
 
 ## Estruturas de dados utilizadas
-(Explique por que usou lista, tupla, set e dictionary em cada parte do sistema.)
+- Ana: No cadastro de filmes, utilizamos listas para armazenar os filmes, tuplas para guardar os horários das sessões, sets para controlar os assentos ocupados e dicionários para organizar os dados dos filmes. Na venda de ingressos, usamos listas e dicionários para registrar as vendas. Já no relatório, utilizamos sets para evitar gêneros repetidos e dicionários para contar os ingressos vendidos por filme.
 
 ## Como funciona cada parte
 
-Ana Gabriela:
+- Ana Gabriela: A função de ler inteiro serve para receber os números inteiros e verificar se eles estão no limite permitido. Usei while para repetir a mensagem até um número dentro do limite ser digitado e usei o try e o except para evitar erro caso o usuário digite um número que não pode ser convertido para inteiro. 
+- A função de cadastrar filmes serve para adicionar novos filmes ao sistema do CineRecife. Ela solicita as informações do filme, como código, título, gênero, classificação indicativa, duração e horários das sessões. Também verifica se os dados estão corretos e se o código já não está sendo utilizado. Depois, organiza essas informações em um dicionário e adiciona o filme à lista de filmes.
+- A função vender ingresso permite cadastrar os filmes que estarão disponíveis no sistema.
+- Já a função gerar relatório usa os registros das vendas para gerar os relatórios do cinema.
 
 Laura Rezende:
 
 Nicolas Diogenes: Na função de mostrar o menu, ela só imprime o menu com as opções. Na função de buscar o filme, o for percorre a lista e compara o código inserido com os códigos da lista, até encontrar o filme correspondente e retorna com o nome do filme. Os if verificam se o filme realmente existe ou é só um "None".
 
 ### Nome do integrante — funções: exemplo_1(), exemplo_2()
-Ana Gabriela - funções:
+Ana Gabriela - funções: ler_inteiro(mensagem, minimo, maximo), cadastrar_filme(filmes), vender_ingresso(filmes, vendas, promocional) e gerar_relatorio(filmes, vendas).
 
 Laura Rezende - funções:
 
@@ -61,7 +64,7 @@ Nicolas Diogenes - funções: exibir_menu(), buscar_filme(filmes, codigo), valid
 (Cole aqui um trecho da saída do terminal de uma venda completa.)
 
 ## Maior dificuldade e como resolvi
-(Escreva um parágrafo.)
+- Ana: Minha maior dificuldade foi entender como organizar as informações e fazer as funções trabalharem juntas, principalmente no cadastro de filmes e na venda de ingressos. Consegui resolver pesquisando, estudando os comandos do Python e testando o código aos poucos, até entender como cada parte funcionava.
 
 ## Declaração de uso de Inteligência Artificial
 Marque UMA opção:
