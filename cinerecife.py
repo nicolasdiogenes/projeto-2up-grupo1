@@ -25,6 +25,25 @@ vendas = []   # cada venda será um dictionary
 
 #Responsável: Nicolas Diogenes
 def exibir_menu():
-    opcao = input(int("Insira a opção (0-7): "))
-    while opcao != 0:
-        print("===== CINERECIFE =====\n 1 - Listar filmes em cartaz\n 2 - Cadastrar filme\n 3 - Remover filme \n4 - Buscar filmes por gênero\n 5 - Vender ingresso\n 6 - Cancelar venda \n 7 - Relatório da bilheteria\n 0 - Sair")
+    print("===== CINERECIFE =====\n 1 - Listar filmes em cartaz\n 2 - Cadastrar filme\n 3 - Remover filme \n 4 - Buscar filmes por gênero\n 5 - Vender ingresso\n 6 - Cancelar venda \n 7 - Relatório da bilheteria\n 0 - Sair")
+
+#Responsável: Nicolas Diogenes
+def buscar_filme(filmes, codigo):
+    for filme in filmes:
+        if filme["codigo"] == codigo:
+            return filme
+    return None
+
+exibir_menu()
+
+
+# Gente, quando forem usar a função de buscar, coloquem esse bloco aqui
+codcomp = int(input("Digite o código do filme: "))
+resultado = buscar_filme(filmes, codcomp)
+
+if resultado is None:
+    print("Filme não encontrado.")
+else:
+    print(resultado["titulo"])
+
+#até aqui
